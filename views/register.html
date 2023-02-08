@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    
+    <main>
+        <h3>Registro</h3>
+    <form action="Formulario" method="POST">
+    
+        
+        <div class="modificar-divs">
+    
+            <input type="text" name="nombre-apellido" placeholder="Nombre y apellido" required>
+        </div>
+    
+    
+        <div class="modificar-divs">
+            
+            <input type="text" name="nombre-usuario" placeholder="Nombre de usuario" required>
+    
+        </div>
+    
+    
+        <div class="modificar-divs">
+    
+            <label><b>Fecha de nacimiento</b></label>
+            <input type="date" name="date" required>
+    
+        </div>
+    
+    
+        <div class="modificar-divs">
+    
+            <input type="text" name="domicilio" placeholder="Domicilio" required>
+        </div>
+    
+    
+        <div class="modificar-perfiles">
+            <label><b>Perfil del usuario </b></label>
+
+            <div class="comprador">
+                <p>Comprador</p><input class="input-mover" type="checkbox" name="perfil-comprador">
+            </div>
+
+
+            <div class="vendedor">
+             <p>Vendedor</p><input class="input-mover" type="checkbox" name="perfil-vendedor">
+            </div>
+            
+            
+        </div>
+    
+    
+        <div class="modificar-divs">
+            <label> <b>Intereses</b></label>
+            <select class="intereses" name="categoria"> 
+            <option value="electro">Electro</option>
+            <option value="moda">Moda</option>
+            <option value="hogar">Hogar</option>
+            <option value="juegueteria">Juguetería</option>
+            <option value="vida-sana">Vida sana</option>
+    
+            </select>
+        </div>
+    
+        <div class="div-foto-usuario">
+            <label> <b>Foto de usuario</b></label>
+            <input class="foto-usuario" type="file" name="foto-usuario" accept=”.jpg,.png”>
+        </div>
+        
+        <div class="modificar-divs">
+            <input type="password" name="pass" placeholder="Contraseña" required>
+        </div>
+        
+    
+        <div class="modificar-divs">
+            <input type="password" name="confirmar-pass" placeholder="Confirmar contraseña" required>
+        </div>
+        
+        <div class="div-botones">
+            <button type="submit">Enviar</button>
+        </div>
+        
+        <div class="div-botones"> 
+        <button type="reset">Borrar formulario</button>
+        </div>
+    
+    </main>
+    </form>
+</body>
+</html>

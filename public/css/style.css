@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    width: auto;
+    box-sizing: border-box;
+    background: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    background-color: #EAC926;
+    width: 100vw;
+    height: 40vh;
+    
+}
+
+.headerSup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor-img{
+    width: 50%;
+}
+
+#img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 75%;
+}
+
+#barraLupa{
+   
+   width: 50%;
+   
+}
+
+#contenedor-burguer-menu{
+    display: flex;
+    margin-top: 10px;
+}
+
+.burger-menu{
+    background-color: #1259c3;
+    border: 5px solid #1259c3 ;
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+#banner{
+    width: 100vw;
+}
+
+main{
+text-align: center;
+width: 90vw;
+
+}
+
+section{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+}
+
+.articulos{
+    margin-bottom: 10px;
+    background-color: white;
+    width: 90vw;
+    position: relative;
+   
+
+}
+
+.imgSec{
+    width: 30vw;
+}
+
+main section article .fa-solid{
+    border: 1px solid green;
+    border-radius: 50px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+.fa-truck{
+    color: green;
+    position: absolute;
+    left: 85%;
+    bottom: 55px;
+    
+}
+.descripciones{
+    text-align: left;
+    border-top: solid 1px #ebebeb;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul{
+    padding: 0px;
+    margin-bottom: 100px;
+    
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+#barraB {
+    width: 70%;
+    margin: 15px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+
+.fa-magnifying-glass::before{
+   padding: 11px;
+   background: white;
+   border: none;
+   width: 20%;
+   border-left: 0;
+   border-radius: 5px;
+}
+
+#compraEnCuotas{
+   font-size: 12px;
+   text-align: center;
+}
+
+
+#ingresa{
+    display: inline
+}
+
+.ingresa{
+    display: inline;
+    margin-left: 2px;
+}
+
+
+.fas{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    color: #666;
+}
+
+
+.precios{
+    font-size: 18px;
+    color:  #666;
+    flex-grow: 0.30;
+}
+
+.descuentos{
+    font-size: 16px;
+    color:  green;
+    flex-grow: 0.70;
+}
+
+.titulos{
+    margin-bottom: 10px;
+    text-align: left;
+    margin: 15px;
+}
+
+h5 {
+    font-size: 16px;
+    color:  #666;
+    
+}
+
+#footer{
+  text-align: center;
+  width: auto;
+  height: 360px;
+}
+
+.tituloFooter{
+    font-size: 16px;
+    color:  #666;
+}
+
+.pFooter{
+    font-size: 12px;
+    color: #666;
+}
+
+.icons-footer{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fa-credit-card{
+   color: #1259c3;
+}
+.fa-gift{
+    color: #1259c3;
+}
+
+.fa-user-shield{
+    color: #1259c3;
+}
+
+#copy{
+    color:  #666;
+    margin-top: 20px;
+}
+
+/* MEDIA QUERYS */
+
+#descripcionHeader{
+    display: none;
+}

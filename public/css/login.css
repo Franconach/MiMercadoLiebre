@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ebebeb;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+form{
+    align-items: center;
+    margin: 20px 15px;
+}
+
+div{
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+    border-color: aliceblue;
+    border-style: none;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+.boton-formulario{
+    color: white;
+    background-color: rgb(43, 43, 202);
+}
+
+@media (min-width: 550px) {
+
+input{
+    width: 50%;
+    font-size: 18px;
+}
+
+main h3{
+    font-size: 24px;
+}
+
+button{
+    font-size: 18px;
+   
+}
+
+
+}
